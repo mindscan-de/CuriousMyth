@@ -1,9 +1,9 @@
 # CuriousMyth
 
-A system to organize and to link entities of infromation or entities of given facts and build 
+A system to organize and to link entities of information or entities of given facts and build 
 a knowledge graph from it and explore this knowledge graph. This project slightly differs from
 project CheapLithium - CheapLithium builds an executable knowledge graph, where CuriousMyth 
-tries to model factualsand linking them with sources.
+tries to model factuals and linking them with sources.
 
 ## Use Cases
 
@@ -26,8 +26,8 @@ lets provide some possible use cases, which may or may not be for what this syst
 
 ## Data Labelling
 
-* Entities
-  * infromation or 
+* Data Entities
+  * infromation
   * facts
   * entities (persons, companies)
   * historic events
@@ -46,3 +46,11 @@ lets provide some possible use cases, which may or may not be for what this syst
   * Timelines
   * (interactive) Diagrams
   * retrieve information
+  * have certain queries to select entities for a certain diagram
+  * cretae info graphics from selected enteties
+
+## Tech?
+
+* Some kind of GraphDB?
+  * make or buy (Neo4J)?
+* provide history for graph changes (GIT/SVN?)
