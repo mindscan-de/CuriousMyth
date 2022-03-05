@@ -37,6 +37,7 @@ lets provide some possible use cases, which may or may not be for what this syst
   * Topic
   * URLs
   * URIs to other databases / tools
+  * Book/Conference/ etc. references (Citations)
 * relationshipts between information and facts by having triple grammars (fact/information, annotated arrow (with fact or information), fact/information)
 
 ## Diagramming
