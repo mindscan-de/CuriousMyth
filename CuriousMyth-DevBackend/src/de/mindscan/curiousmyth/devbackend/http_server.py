@@ -34,7 +34,17 @@ app = FastAPI();
 async def root():
     return {"message": "It works. Please go away now."}
 
-@app.post("/create_fact")
-async def create_fact():
+@app.post("/entity/create")
+async def create_entity():
+    # an entity can be an event, an entity(corporation), a person, a collection of facts, a date, a timespan
     return {}
 
+@app.get("/image/raw/{uuid}")
+async def get_image_raw( uuid:str ):
+    return {}
+
+@app.get("/image/info/{uuid}")
+async def get_image_info( uuid:str ):
+    return {}
+
+# TODO: upload_image
